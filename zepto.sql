@@ -83,7 +83,7 @@ LIMIT 10;
 -- Q2. Products with High MRP but Out of Stock
 SELECT DISTINCT name, mrp
 FROM zepto
-WHERE outOfStock = TRUE AND mrp > 300
+WHERE outOfStock = 1 AND mrp > 300
 ORDER BY mrp DESC;
 
 -- Q3. Estimated Revenue for each category
