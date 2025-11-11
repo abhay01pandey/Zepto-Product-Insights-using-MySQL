@@ -2,6 +2,7 @@ CREATE DATABASE Zepto_db;
 USE Zepto_db;
 
 CREATE TABLE zepto (
+    sku_id INT AUTO_INCREMENT PRIMARY KEY,
     category VARCHAR(120),
     name VARCHAR(150) NOT NULL,
     mrp DECIMAL(8,2),
